@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Menu — GeoServices</title>
+<style>
+:root{--bg:#fffaf4;--card:#fff;--text:#1f2937;--muted:#6b7280;--accent:#b45309;--accent2:#78350f;--line:#f3e8d8}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+.hero{padding:28px 20px 18px;background:linear-gradient(135deg,#2b160b,#6b2f0b 55%,#b45309);color:white}
+.hero .wrap,.content{max-width:760px;margin:auto}
+.badge{display:inline-block;padding:6px 10px;border:1px solid rgba(255,255,255,.35);border-radius:999px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:34px;margin:10px 0 6px}.hero p{margin:0;color:#fde7cf}
+.nav{display:flex;gap:8px;overflow:auto;padding:14px 20px;background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.nav a{white-space:nowrap;text-decoration:none;color:var(--accent2);background:#fff7ed;border:1px solid #fed7aa;border-radius:999px;padding:8px 12px;font-size:14px}
+.content{padding:22px 16px 40px}section{margin:0 0 28px}section h2{font-size:22px;margin:0 0 12px;color:var(--accent2)}
+.item{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:10px 0;box-shadow:0 5px 18px rgba(80,45,20,.05)}
+.row{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.name{font-weight:750;font-size:17px}.price{font-weight:800;color:var(--accent);white-space:nowrap}
+.desc{margin-top:5px;color:var(--muted);font-size:14px;line-height:1.45}.tag{display:inline-block;margin-top:8px;font-size:12px;color:#7c2d12;background:#ffedd5;padding:4px 8px;border-radius:999px}
+.footer{text-align:center;color:var(--muted);font-size:13px;padding:20px}.cta{display:block;text-align:center;text-decoration:none;background:var(--accent);color:#fff;padding:13px 16px;border-radius:14px;font-weight:700;margin-top:16px}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap"><span class="badge">Menu digital</span><h1>Le Patio</h1><p>Cuisine africaine & contemporaine • Ouagadougou</p></div></header>
+<nav class="nav"><a href="#entrees">Entrées</a><a href="#plats">Plats</a><a href="#grillades">Grillades</a><a href="#boissons">Boissons</a><a href="#desserts">Desserts</a></nav>
+<main class="content">
+<section id="entrees"><h2>Entrées</h2>
+<div class="item"><div class="row"><div class="name">Salade fraîche du chef</div><div class="price">3 000 F</div></div><div class="desc">Laitue, tomate, concombre, œuf, vinaigrette maison.</div></div>
+<div class="item"><div class="row"><div class="name">Alloco & sauce maison</div><div class="price">2 500 F</div></div><div class="desc">Banane plantain frite, sauce légèrement épicée.</div><span class="tag">Populaire</span></div>
+</section>
+<section id="plats"><h2>Plats</h2>
+<div class="item"><div class="row"><div class="name">Poulet braisé + attiéké</div><div class="price">5 500 F</div></div><div class="desc">Poulet mariné, attiéké, crudités et sauce piment.</div></div>
+<div class="item"><div class="row"><div class="name">Riz gras au bœuf</div><div class="price">4 000 F</div></div><div class="desc">Riz parfumé, bœuf mijoté et légumes.</div></div>
+<div class="item"><div class="row"><div class="name">Spaghetti poulet crème</div><div class="price">4 500 F</div></div><div class="desc">Pâtes, poulet, crème légère et herbes.</div></div>
+</section>
+<section id="grillades"><h2>Grillades</h2>
+<div class="item"><div class="row"><div class="name">Brochettes de bœuf</div><div class="price">4 500 F</div></div><div class="desc">Servies avec frites ou pommes sautées.</div></div>
+<div class="item"><div class="row"><div class="name">Poisson braisé</div><div class="price">7 000 F</div></div><div class="desc">Poisson entier, marinade maison et accompagnement au choix.</div></div>
+</section>
+<section id="boissons"><h2>Boissons</h2>
+<div class="item"><div class="row"><div class="name">Bissap maison</div><div class="price">1 000 F</div></div></div>
+<div class="item"><div class="row"><div class="name">Gingembre frais</div><div class="price">1 000 F</div></div></div>
+<div class="item"><div class="row"><div class="name">Eau minérale</div><div class="price">500 F</div></div></div>
+</section>
+<section id="desserts"><h2>Desserts</h2>
+<div class="item"><div class="row"><div class="name">Dégué</div><div class="price">1 500 F</div></div><div class="desc">Yaourt frais et couscous de mil.</div></div>
+<div class="item"><div class="row"><div class="name">Salade de fruits</div><div class="price">2 000 F</div></div><div class="desc">Fruits frais de saison.</div></div>
+</section>
+<a class="cta" href="tel:+22665735360">Appeler le restaurant</a>
+</main>
+<div class="footer">Prix en FCFA • Exemple de menu QR conçu pour une consultation sur téléphone</div>
+</body></html>
