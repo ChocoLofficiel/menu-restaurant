@@ -48,6 +48,42 @@ h1{font-size:34px;margin:10px 0 6px}.hero p{margin:0;color:#fde7cf}
 <div class="item"><div class="row"><div class="name">Salade de fruits</div><div class="price">2 000 F</div></div><div class="desc">Fruits frais de saison.</div></div>
 </section>
 <a class="cta" href="tel:+22665735360">Appeler le restaurant</a>
+<!-- Bouton WhatsApp flottant -->
+<a
+  href="https://wa.me/22665735360?text=Bonjour%2C%20je%20souhaite%20passer%20une%20commande."
+  class="whatsapp-btn"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Commander sur WhatsApp"
+>
+  <span>💬</span> Commander sur WhatsApp
+</a>
+
+<style>
+.whatsapp-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #25D366;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-btn:hover {
+  transform: translateY(-3px);
+  background-color: #1ebe5d;
+}
+</style>
 </main>
-<div class="footer">Prix en FCFA • Exemple de menu QR conçu pour une consultation sur téléphone</div>
+<div class="footer">Menu digital du restaurant GeoServices sis à Ouaga 2000</div>
 </body></html>
